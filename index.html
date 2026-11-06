@@ -1,0 +1,42 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fitness Tracker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>🏃 Fitness Tracker</h1>
+    <p>Track your daily fitness activities</p>
+
+    <div class="goal-box">
+        <h3>Daily Goal: 60 Minutes</h3>
+        <h2 id="total">0 Minutes</h2>
+        <progress id="progress" value="0" max="60"></progress>
+        <p id="goalMessage">Keep going!</p>
+    </div>
+
+    <h2>Add Activity</h2>
+
+    <select id="activity">
+        <option value="Walking">Walking</option>
+        <option value="Running">Running</option>
+        <option value="Cycling">Cycling</option>
+        <option value="Yoga">Yoga</option>
+        <option value="Exercise">Exercise</option>
+    </select>
+
+    <input type="number" id="duration"
+        placeholder="Duration in minutes" min="1">
+
+    <button onclick="addActivity()">Add Activity</button>
+
+    <h2>My Activities</h2>
+    <ul id="activityList"></ul>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

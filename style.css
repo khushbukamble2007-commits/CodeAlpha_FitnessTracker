@@ -1,0 +1,71 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #74ebd5, #9face6);
+    margin: 0;
+    padding: 30px 15px;
+}
+
+.container {
+    background: white;
+    max-width: 450px;
+    margin: auto;
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+    box-shadow: 0 5px 15px #0002;
+}
+
+h1 {
+    color: #4455a5;
+}
+
+.goal-box {
+    background: #eef1ff;
+    padding: 15px;
+    border-radius: 10px;
+    margin: 20px 0;
+}
+
+progress {
+    width: 90%;
+    height: 15px;
+}
+
+select, input {
+    width: 90%;
+    padding: 12px;
+    margin: 8px;
+    border: 1px solid #ccc;
+    border-radius: 7px;
+    box-sizing: border-box;
+}
+
+button {
+    background: #5368c5;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #35479c;
+}
+
+li {
+    background: #f1f2fa;
+    margin: 8px 0;
+    padding: 10px;
+    border-radius: 7px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.delete-btn {
+    background: #e05252;
+    padding: 7px 10px;
+}
